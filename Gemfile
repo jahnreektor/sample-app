@@ -23,6 +23,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'haml'
 gem 'jquery-rails'
 group :test do
   gem 'capybara', '1.1.2'
