@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.6'
 gem 'bootstrap-sass'
-gem 'bcrypt-ruby'
+gem 'bcrypt-ruby','~> 3.0.0'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -32,6 +32,7 @@ group :test do
   gem 'rspec-rails', '2.10.0'
   gem 'rb-fsevent', '0.4.3.1', require: false
   gem 'growl', '1.0.3'
+  gem 'factory_girl_rails', '1.4.0'
 end
 
 group :production do
